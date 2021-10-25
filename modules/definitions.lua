@@ -54,12 +54,17 @@ DEF_FORGE = {
     shop_key = false,
     shop_buy = 0,
     shop_sell = 0,
-    layout = {{7, 17, "Input", {"log", MOD_NAME .. "_copper_dust"}},
-              {7, 40, "Input", {"log", "planks1", "planks2", "sticks1", "sticks2", "cog", MOD_NAME .. "_charcoaled_log"}},
-              {122, 28, "Output"}, {7, 66}, {30, 66}, {53, 66}, {76, 66}, {99, 66}, {122, 66}},
+    layout = {
+        {7, 17, "Input", {"log", MOD_NAME .. "_copper_dust"}},
+        {7, 40, "Input", {"log", "planks1", "planks2", "sticks1", "sticks2", "cog", MOD_NAME .. "_charcoaled_log"}},
+        {122, 28, "Output"},
+        {7, 66}, {30, 66}, {53, 66}, {76, 66}, {99, 66}, {122, 66}}, -- Extra Storage
     buttons = {"Help", "Move", "Target", "Close"},
-    info = {{"1. Forged Item Input", "GREEN"}, {"2. Forge Fuel", "YELLOW"}, {"3. Forge Output", "RED"},
-            {"4. Extra Storage", "WHITE"}},
+    info = {
+        {"1. Forged Item Input", "GREEN"},
+        {"2. Forge Fuel", "YELLOW"},
+        {"3. Forge Output", "RED"},
+        {"4. Extra Storage", "WHITE"}},
     tools = {"mouse1", "hammer1"}
 }
 
