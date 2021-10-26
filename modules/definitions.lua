@@ -1,4 +1,4 @@
-DEF_TINKERERS_TOME = {
+DEF_TOME_ITEM = {
     id = "tinkerers_tome",
     name = TINKERERS_TOME_NAME,
     category = CATEGORY_TINKERING,
@@ -6,11 +6,25 @@ DEF_TINKERERS_TOME = {
     shop_key = true,
     shop_buy = 0,
     shop_sell = 0,
+    singular = true
+}
+
+DEF_TOME_OBJ = {
+    id = "tinkerers_tome_obj",
+    name = TINKERERS_TOME_NAME,
+    category = CATEGORY_TINKERING,
+    tooltip = "You're not supposed to have this",
+    shop_key = true,
+    shop_buy = 0,
+    shop_sell = 0,
     layout = {},
     info = {},
     buttons = {},
     center = true,
-    singular = true
+    singular = true,
+    invisible = true,
+    placeable = true,
+    tools = {"mouse1", "hammer1"}
 }
 
 DEF_COPPER_DUST = {
