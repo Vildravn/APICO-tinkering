@@ -1,9 +1,9 @@
 CATEGORY_TINKERING = "Tinkering"
 
-COPPER_BEE_TITLE = "Copper-Haired"
+COPPER_BEE_TITLE = "Copper-haired"
 COPPER_BEE_LATIN = "Andrena Cupricoma"
-COPPER_BEE_HINT = "Nobody knows where it is found yet."
-COPPER_BEE_DESC = "Andrena Cupricoma is a burrowing bee attracted to copper ore which it can break down. Particles from the broken down ore get caught in the bee's fine hair, serving as protection against parasites and giving the bee its name."
+COPPER_BEE_HINT = "This cross-breed of Raris and Petra is so rare and different, it's actually considered a whole new genus."
+COPPER_BEE_DESC = "Andrena Cupricoma is a species of a miner bee attracted to copper ore which it can break down using strong acid in its saliva. Particles from the broken down ore get caught in the bee's fine hair, serving as protection against parasites and giving the bee its name."
 COPPER_BEE_MAG_TITLE = "Copper bee found!"
 COPPER_BEE_MAG_TEXT = "Yay Someone found it!"
 
