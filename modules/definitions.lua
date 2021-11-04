@@ -44,12 +44,12 @@ DEF_COPPER_BEE = {
     latin = COPPER_BEE_LATIN,
     hint = COPPER_BEE_HINT,
     desc = COPPER_BEE_DESC,
-    lifespan = {"Normal"},
-    productivity = {"Normal"},
-    fertility = {"Fecund"},
+    lifespan = {"Short", "Normal"},
+    productivity = {"Slow", "Normal"},
+    fertility = {"Fertile"},
     stability = {"Normal"},
-    behaviour = {"Crepuscular"},
-    climate = {"Tropic"},
+    behaviour = {"Nocturnal"},
+    climate = {"Temperate"},
     rainlover = false,
     snowlover = false,
     grumpy = false,
@@ -57,7 +57,7 @@ DEF_COPPER_BEE = {
     chance = 100,
     requirement = "",
     bid = "🜠1",
-    tier = 3
+    tier = 2
 }
 
 DEF_FORGE = {
