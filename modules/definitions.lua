@@ -39,7 +39,7 @@ DEF_COPPER_DUST = {
 }
 
 DEF_COPPER_BEE = {
-    id = "copper",
+    id = "copper-haired",
     title = COPPER_BEE_TITLE,
     latin = COPPER_BEE_LATIN,
     hint = COPPER_BEE_HINT,
