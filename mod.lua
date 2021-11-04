@@ -1,4 +1,6 @@
 MOD_NAME = "tinkering"
+MOD_VERSION = "Alpha 0.1"
+MOD_AUTHOR = "Vildravn"
 
 function register()
     return {
