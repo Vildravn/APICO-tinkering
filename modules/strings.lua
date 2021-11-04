@@ -20,3 +20,5 @@ FORGE_TOOLTIP = "Can smelt metals"
 
 CHARCOALED_LOG_NAME = "Charcoaled Log"
 CHARCOALED_LOG_TOOLTIP = "Produced by burning Logs in the "..FORGE_NAME
+
+TOME_ABOUT_LEFT = "Version: " .. MOD_VERSION .. "\nAuthor: " .. MOD_AUTHOR

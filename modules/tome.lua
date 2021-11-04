@@ -84,7 +84,7 @@ function tome_draw(menu_id)
     elseif PAGE_INDEX == 3 then
         api_draw_text(mx + 148, my + 7, "Achievements? Yeah that's a stretch. We'll see.", false, "FONT_BOOK", 136)
     elseif PAGE_INDEX == 4 then
-        api_draw_text(mx + 148, my + 7, "Version: Alpha 0.1", false, "FONT_BOOK", 136)
+        api_draw_text(mx + 148, my + 7, TOME_ABOUT_LEFT, false, "FONT_BOOK", 136)
     end
 end
 
